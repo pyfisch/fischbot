@@ -15,7 +15,7 @@ def use_param(template, name, mangle):
     if template.has(name, ignore_empty=True):
         result = mangle(template.get(name).value)
         if len(result) == 0:
-            logging.warning('Failed to use "{}"'.format(template.get(name)))
+            logging.warning('Failed to use "{!r:}"'.format(template.get(name)))
         return result
     return dict()
 
