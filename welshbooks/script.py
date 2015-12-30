@@ -1,20 +1,15 @@
+# Request for approval and description:
+# https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions/Bot/FischBot_5
+
+import argparse
 import csv
 import logging
 
-import pywikibot
-import mwparserfromhell
 import isbnlib
+import mwparserfromhell
+import pywikibot
 
 TEMPLATE_NAME = 'Gwybodlen llyfr'
-
-site = pywikibot.Site('cy', 'wikipedia')
-site.login()
-data_repository = site.data_repository()
-data_repository.login()
-
-template = pywikibot.Page(site, 'Template:' + TEMPLATE_NAME)
-
-logging.basicConfig(filename='welshbooks/2015-12-29.log',level=logging.DEBUG)
 
 def use_param(template, name, mangle):
     if template.has(name, ignore_empty=True):
@@ -24,7 +19,36 @@ def use_param(template, name, mangle):
         return result
     return dict()
 
-def mangle_date(raw):
+def _mangle_wikilink(raw, key):
+    links = list(raw.filter_wikilinks())
+    if len(links) == 1:
+        try:
+            page = pywikibot.Page(site, links[0].title)
+            if page.isRedirectPage():
+                page = page.getRedirectTarget()
+            item = pywikibot.ItemPage.fromPage(page)
+            return {key: item.title()}
+        except pywikibot.NoPage: pass
+    return dict()
+
+def mangle_author(raw):
+    return _mangle_wikilink(raw, 'author')
+
+def mangle_language(raw):
+    if raw.strip().lower() == 'cymraeg':
+        return {'language': 'Q9309'}
+    if raw.strip().lower() == 'saesneg':
+        return {'language': 'Q1860'}
+    else:
+        return _mangle_wikilink(raw, 'language')
+
+def mangle_country(raw):
+    if raw.strip().lower() == 'cymru':
+        return {'country': 'Q25'}
+    else:
+        return _mangle_wikilink(raw, 'country')
+
+def mangle_published(raw):
     text = raw.strip_code().strip()
     if len(text) == 4 and text.isdigit():
         return {'published': int(text)}
@@ -65,9 +89,23 @@ def mangle_date(raw):
     except ValueError:
         return dict()
 
+def mangle_pages(raw):
+    value = raw.strip()
+    if value.endswith(' tudalen'):
+        value = value[x:-8]
+    if value.isdigit():
+        return {'pages': int(value)}
+    return dict()
+
+def mangle_publisher(raw):
+    return _mangle_wikilink(raw, 'publisher')
+
+def mangle_editor(raw):
+    return _mangle_wikilink(raw, 'editor')
+
 def mangle_isbn(raw):
     result = dict()
-    for value in raw.strip().replace('-', '').split():
+    for value in raw.strip().split():
         if isbnlib.is_isbn13(value):
             result['isbn13'] = isbnlib.mask(value)
         elif isbnlib.is_isbn10(value):
@@ -78,73 +116,6 @@ def mangle_oclc(raw):
     value = raw.strip()
     if value.isdigit():
         return {'oclc': value}
-    return {}
-
-def mangle_pages(raw):
-    value = raw.strip()
-    if value.isdigit():
-        return {'pages': int(value)}
-    elif value.endswith(' tudalen') and value[x:-8].isdigit():
-        return {'pages': int(value)}
-    return dict()
-
-def mangle_wikilink(raw):
-    links = list(raw.filter_wikilinks())
-    if len(links) == 1:
-        try:
-            page = pywikibot.Page(site, links[0].title)
-            if page.isRedirectPage():
-                page = page.getRedirectTarget()
-            item = pywikibot.ItemPage.fromPage(page)
-            return item.title()
-        except pywikibot.NoPage: pass
-
-def mangle_country(raw):
-    value = mangle_wikilink(raw)
-    if value:
-        return {'country': value}
-    if raw.strip().lower() == 'cymru':
-        item = pywikibot.ItemPage.fromPage(pywikibot.Page(site, 'Cymru'))
-        return {'country': item.title()}
-    return dict()
-
-def mangle_language(raw):
-    value = mangle_wikilink(raw)
-    if value:
-        return {'language': value}
-    if raw.strip().lower() == 'cymraeg':
-        item = pywikibot.ItemPage.fromPage(pywikibot.Page(site, 'Cymraeg'))
-        return {'language': item.title()}
-    if raw.strip().lower() == 'saesneg':
-        item = pywikibot.ItemPage.fromPage(pywikibot.Page(site, 'Saesneg'))
-        return {'language': item.title()}
-    return dict()
-
-def mangle_author(raw):
-    value = mangle_wikilink(raw)
-    if value:
-        return {'author': value}
-    return dict()
-
-def mangle_lccn(raw):
-    return {'lccn': raw.strip()}
-
-def mangle_genre(raw):
-    value = mangle_wikilink(raw)
-    if value:
-        return {'genre': value}
-    return dict()
-
-def mangle_publisher(raw):
-    value = mangle_wikilink(raw)
-    if value:
-        return {'publisher': value}
-    return dict()
-
-def mangle_editor(raw):
-    value = mangle_wikilink(raw)
-    if value:
-        return {'editor': value}
     return dict()
 
 def process_page(page):
@@ -159,31 +130,49 @@ def process_page(page):
         try:
             result['wikidata'] = pywikibot.ItemPage.fromPage(page).title()
         except pywikibot.NoPage: pass
-        result.update(use_param(book, 'dyddiad cyhoeddi', mangle_date))
-        result.update(use_param(book, 'dyddiad chyhoeddi', mangle_date))
-        result.update(use_param(book, 'dyddiad rhyddhau', mangle_date))
-        result.update(use_param(book, 'isbn', mangle_isbn))
-        result.update(use_param(book, 'oclc', mangle_oclc))
+        result.update(use_param(book, 'awdur', mangle_author))
+        result.update(use_param(book, 'iaith', mangle_language))
+        result.update(use_param(book, 'gwlad', mangle_country))
+        result.update(use_param(book, 'dyddiad cyhoeddi', mangle_published))
+        result.update(use_param(book, 'dyddiad chyhoeddi', mangle_published))
+        result.update(use_param(book, 'dyddiad rhyddhau', mangle_published))
         result.update(use_param(book, 'tudalennau', mangle_pages))
         result.update(use_param(book, 'Tudalennau', mangle_pages))
-        result.update(use_param(book, 'gwlad', mangle_country))
-        result.update(use_param(book, 'cyngres', mangle_lccn))
-        result.update(use_param(book, 'iaith', mangle_language))
-        result.update(use_param(book, 'awdur', mangle_author))
-        # tests
-        result.update(use_param(book, 'genre', mangle_genre))
         result.update(use_param(book, 'cyhoeddwr', mangle_publisher))
         result.update(use_param(book, 'golygydd', mangle_editor))
+        result.update(use_param(book, 'isbn', mangle_isbn))
+        result.update(use_param(book, 'oclc', mangle_oclc))
+        # tests
         writer.writerow(result)
 
-with open('welshbooks/2015-12-29.csv', 'w', 1) as csvfile:
-    fieldnames = ['title', 'wikidata', 'author', 'country', 'language',
-                  'published', 'pages', 'isbn13', 'isbn10', 'oclc', 'lccn',
-                  'genre', 'publisher', 'editor']
-    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-    writer.writeheader()
-    for page in template.embeddedin(namespaces=0, content=True):
-        try:
-            process_page(page)
-        except Exception as err:
-            logging.error('Processing {} failed: {}'.format(page, err))
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=
+        'Harvest information from Welsh Wikipedia about books.')
+    parser.add_argument('--log', type=str, help='target file for log',
+                        default='welshbooks.log')
+    parser.add_argument('--level', type=int, default=20,
+                        help='numeric value for loglevel')
+    parser.add_argument('output', type=str,
+                        help='target file for extracted data')
+    args = parser.parse_args()
+
+    site = pywikibot.Site('cy', 'wikipedia')
+    site.login()
+    data_repository = site.data_repository()
+    data_repository.login()
+
+    template = pywikibot.Page(site, 'Template:' + TEMPLATE_NAME)
+
+    logging.basicConfig(filename=args.log,level=args.level)
+
+    with open(args.output, 'w', 1) as csvfile:
+        fieldnames = ['title', 'wikidata', 'author', 'language', 'country',
+                      'published', 'pages', 'publisher', 'editor',
+                      'isbn13', 'isbn10', 'oclc']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        for page in template.embeddedin(namespaces=0, content=True):
+            try:
+                process_page(page)
+            except Exception as err:
+                logging.error('Processing {} failed: {}'.format(page, err))
