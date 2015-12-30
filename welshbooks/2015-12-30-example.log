@@ -20,7 +20,6 @@ WARNING:root:Failed to use " cyhoeddwr        = Cwmni y Cyhoeddwyr Cymreig
 DEBUG:root:Processing page [[wikipedia:cy:Chwalfa]]
 WARNING:root:Failed to use " dyddiad chyhoeddi = 1946 <br> Argraffiad newydd: 15 Mawrth 2004
 "
-ERROR:root:Processing [[wikipedia:cy:Chwalfa]] failed: name 'x' is not defined
 DEBUG:root:Processing page [[wikipedia:cy:Blodeugerdd o Farddoniaeth Gymraeg yr Ugeinfed Ganrif]]
 WARNING:root:Failed to use " awdur             =   [[Gwynn ap Gwilym]] ac [[Alan Llwyd]]
 "
@@ -48,7 +47,6 @@ DEBUG:root:Processing page [[wikipedia:cy:Y Lôn Wen]]
 WARNING:root:Failed to use " awdur             = Kate Roberts
 "
 DEBUG:root:Processing page [[wikipedia:cy:Wele'n Gwawrio]]
-ERROR:root:Processing [[wikipedia:cy:Wele'n Gwawrio]] failed: name 'x' is not defined
 DEBUG:root:Processing page [[wikipedia:cy:Esther (drama)]]
 WARNING:root:Failed to use " dyddiad chyhoeddi = Cyhoeddiad cyntaf: 1960<br>Argraffiad diweddaraf: Gorffennaf 2000 
 "
@@ -83,7 +81,6 @@ WARNING:root:Failed to use " cyhoeddwr         = Anrhydeddus Gymdeithas y Cymmro
 DEBUG:root:Processing page [[wikipedia:cy:Yn Y Gwaed]]
 WARNING:root:Failed to use " dyddiad chyhoeddi = 1990 a 2010
 "
-ERROR:root:Processing [[wikipedia:cy:Yn Y Gwaed]] failed: name 'x' is not defined
 WARNING:py.warnings:/usr/lib/python3.5/site-packages/pywikibot/family.py:930: FamilyMaintenanceWarning: Family name wikimediachapter does not match family module name wikimedia
 DEBUG:root:Processing page [[wikipedia:cy:Gwynfor: Rhag Pob Brad]]
 WARNING:root:Failed to use " awdur             = Rhys Evans
@@ -183,7 +180,6 @@ DEBUG:root:Processing page [[wikipedia:cy:Y Bradwr (llyfr)]]
 DEBUG:root:Processing page [[wikipedia:cy:Y Ferch o Berlin]]
 DEBUG:root:Processing page [[wikipedia:cy:Modrybedd Afradlon]]
 DEBUG:root:Processing page [[wikipedia:cy:Blasu (nofel)]]
-ERROR:root:Processing [[wikipedia:cy:Blasu (nofel)]] failed: name 'x' is not defined
 DEBUG:root:Processing page [[wikipedia:cy:Anecdotau Llenyddol]]
 WARNING:root:Failed to use " cyhoeddwr         = Y Lolfa
 "
@@ -921,7 +917,24 @@ WARNING:root:Failed to use " awdur             = [[Richard Davies (Isgarn)]]
 "
 WARNING:root:Failed to use " cyhoeddwr         = Llyfrgell Genedlaethol Cymru
 "
-VERBOSE:pywiki:Found 1 wikipedia:ln processes running, including this one.
+DEBUG:root:Processing page [[wikipedia:cy:Cerddi'r Bont]]
+WARNING:root:Failed to use " cyhoeddwr         = Gwasg Carreg Gwalch
+"
+DEBUG:root:Processing page [[wikipedia:cy:Cerddi Dafydd ap Gwilym]]
+WARNING:root:Failed to use " cyhoeddwr         = Gwasg Prifysgol Cymru
+"
+WARNING:root:Failed to use " golygydd          = [[Amrywiol]]
+"
+DEBUG:root:Processing page [[wikipedia:cy:Y Bancsi Bach]]
+WARNING:root:Failed to use " cyhoeddwr         = Y Lolfa
+"
+DEBUG:root:Processing page [[wikipedia:cy:Hoff Gerddi Natur Cymru]]
+WARNING:root:Failed to use " cyhoeddwr         = Gwasg Gomer
+"
+WARNING:root:Failed to use " golygydd          = [[Bethan Mair]]
+"
+DEBUG:root:Processing page [[wikipedia:cy:Waliau'n Canu]]
+VERBOSE:pywiki:Found 1 wikipedia:gd processes running, including this one.
 VERBOSE:pywiki:Dropped throttle(s).
 CRITICAL:pywiki:Waiting for 1 network thread(s) to finish. Press ctrl-c to abort
 VERBOSE:pywiki:All threads finished.

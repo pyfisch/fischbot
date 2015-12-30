@@ -92,7 +92,7 @@ def mangle_published(raw):
 def mangle_pages(raw):
     value = raw.strip()
     if value.endswith(' tudalen'):
-        value = value[x:-8]
+        value = value[:-8]
     if value.isdigit():
         return {'pages': int(value)}
     return dict()
@@ -142,7 +142,6 @@ def process_page(page):
         result.update(use_param(book, 'golygydd', mangle_editor))
         result.update(use_param(book, 'isbn', mangle_isbn))
         result.update(use_param(book, 'oclc', mangle_oclc))
-        # tests
         writer.writerow(result)
 
 if __name__ == '__main__':
