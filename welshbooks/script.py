@@ -15,12 +15,14 @@ def use_param(template, name, mangle):
     if template.has(name, ignore_empty=True):
         result = mangle(template.get(name).value)
         if len(result) == 0:
-            logging.warning('Failed to use "{!r:}"'.format(template.get(name)))
+            logging.warning('Failed to use {!r:}'.format(template.get(name)))
         return result
     return dict()
 
-def _mangle_wikilink(raw, key):
+def _mangle_wikilink(raw, key, special={}):
     links = list(raw.filter_wikilinks())
+    if raw.strip().lower() in special:
+        return {key: special[raw.strip().lower()]}
     if len(links) == 1:
         try:
             page = pywikibot.Page(site, links[0].title)
@@ -35,59 +37,45 @@ def mangle_author(raw):
     return _mangle_wikilink(raw, 'author')
 
 def mangle_language(raw):
-    if raw.strip().lower() == 'cymraeg':
-        return {'language': 'Q9309'}
-    if raw.strip().lower() == 'saesneg':
-        return {'language': 'Q1860'}
-    else:
-        return _mangle_wikilink(raw, 'language')
+    return _mangle_wikilink(raw, 'language',
+                            {'cymraeg': 'Q9309', 'saesneg': 'Q1860'})
 
 def mangle_country(raw):
-    if raw.strip().lower() == 'cymru':
-        return {'country': 'Q25'}
-    else:
-        return _mangle_wikilink(raw, 'country')
+    return _mangle_wikilink(raw, 'country', {'cymru': 'Q25'})
+
+MONTHS = ['ionawr', 'chwefror', 'mawrth', 'ebrill', 'mai', 'mehefin',
+          'gorffennaf', 'awst', 'medi', 'hydref', 'tachwedd', 'rhagfyr']
+
+def _parse_month(raw):
+    try:
+        return MONTHS.index(raw.lower()) + 1
+    except:
+        return None
 
 def mangle_published(raw):
-    text = raw.strip_code().strip()
+    text = raw.strip_code().strip().replace(',', '')
     if len(text) == 4 and text.isdigit():
         return {'published': int(text)}
-    try:
-        (day, month, year) = text.split()
-        if day.isdigit():
-            day = int(day)
-        else: return dict()
-        if month == 'Ionawr':
-            month = 1
-        elif month == 'Chwefror':
-            month = 2
-        elif month == 'Mawrth':
-            month = 3
-        elif month == 'Ebrill':
-            month = 4
-        elif month == 'Mai':
-            month = 5
-        elif month == 'Mehefin':
-            month = 6
-        elif month == 'Gorffennaf':
-            month = 7
-        elif month == 'Awst':
-            month = 8
-        elif month == 'Medi':
-            month = 9
-        elif month == 'Hydref':
-            month = 10
-        elif month == 'Tachwedd':
-            month = 11
-        elif month == 'Rhagfyr':
-            month = 12
-        else: return dict()
-        if year.isdigit():
-            year = int(year)
-        else: return dict()
+    parts = text.split()
+    if len(parts) == 2:
+        (month, year)= parts
+        if not _parse_month(month): return dict()
+        month = _parse_month(month)
+        if not year.isdigit(): return dict()
+        year = int(year)
+        return {'published': '{:04}-{:02}'.format(year, month)}
+    elif len(parts) == 3:
+        (day, month, year) = parts
+        if not day.isdigit(): return dict()
+        day = int(day)
+        if not _parse_month(month): return dict()
+        month = _parse_month(month)
+        if not year.isdigit(): return dict()
+        year = int(year)
         return {'published': '{:04}-{:02}-{:02}'.format(year, month, day)}
-    except ValueError:
+    else:
         return dict()
+
 
 def mangle_pages(raw):
     value = raw.strip()
@@ -98,7 +86,15 @@ def mangle_pages(raw):
     return dict()
 
 def mangle_publisher(raw):
-    return _mangle_wikilink(raw, 'publisher')
+    return _mangle_wikilink(raw, 'publisher', {
+        'gwasg carreg gwalch': 'Q3405970',
+        'gwasg gomer': 'Q3042717',
+        'y lolfa': 'Q3404425',
+        'gwasg prifysgol cymru': 'Q7896557',
+        'gwasg gee': 'Q13128815',
+        'cyhoeddiadau barddas': 'Q13127628',
+        'gwasg y bwthyn': 'Q13128820',
+        'gwasg gwynedd': 'Q13128814'})
 
 def mangle_editor(raw):
     return _mangle_wikilink(raw, 'editor')

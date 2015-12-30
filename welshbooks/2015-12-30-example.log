@@ -1,940 +1,488 @@
 DEBUG:root:Processing page [[wikipedia:cy:Semtecs]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = Awst 1998 "
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Carreg Gwalch
-"
 DEBUG:root:Processing page [[wikipedia:cy:Carnifal (nofel)]]
-WARNING:root:Failed to use " cyhoeddwr         = Y Lolfa
-"
 DEBUG:root:Processing page [[wikipedia:cy:How Green Was My Valley]]
-WARNING:root:Failed to use " Tudalennau        = 651td (argraffiad cyntaf)
-"
+WARNING:root:Failed to use ' Tudalennau        = 651td (argraffiad cyntaf)\n'
 DEBUG:root:Processing page [[wikipedia:cy:Rhys Lewis]]
 DEBUG:root:Processing page [[wikipedia:cy:100 o Arwyr Cymru]]
-WARNING:root:Failed to use " awdur             = Terry Breverton 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Glyndŵr Publishing
-"
+WARNING:root:Failed to use ' awdur             = Terry Breverton \n'
+WARNING:root:Failed to use ' cyhoeddwr         = Glyndŵr Publishing\n'
 DEBUG:root:Processing page [[wikipedia:cy:Brethyn Cartref]]
-WARNING:root:Failed to use " cyhoeddwr        = Cwmni y Cyhoeddwyr Cymreig
-"
+WARNING:root:Failed to use ' cyhoeddwr        = Cwmni y Cyhoeddwyr Cymreig\n'
 DEBUG:root:Processing page [[wikipedia:cy:Chwalfa]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = 1946 <br> Argraffiad newydd: 15 Mawrth 2004
-"
+WARNING:root:Failed to use ' dyddiad chyhoeddi = 1946 <br> Argraffiad newydd: 15 Mawrth 2004\n'
 DEBUG:root:Processing page [[wikipedia:cy:Blodeugerdd o Farddoniaeth Gymraeg yr Ugeinfed Ganrif]]
-WARNING:root:Failed to use " awdur             =   [[Gwynn ap Gwilym]] ac [[Alan Llwyd]]
-"
+WARNING:root:Failed to use ' awdur             =   [[Gwynn ap Gwilym]] ac [[Alan Llwyd]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Wild Wales]]
-WARNING:root:Failed to use " gwlad             = Lloegr"
+WARNING:root:Failed to use ' gwlad             = Lloegr'
 DEBUG:root:Processing page [[wikipedia:cy:Yma o Hyd (nofel)]]
-WARNING:root:Failed to use " cyhoeddwr         = Y Lolfa
-"
 DEBUG:root:Processing page [[wikipedia:cy:Anturiaethau Alys yng Ngwlad Hud]]
-WARNING:root:Failed to use "cyhoeddwr = [[Macmillan Publishers|Macmillan]]
-"
+WARNING:root:Failed to use 'cyhoeddwr = [[Macmillan Publishers|Macmillan]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gulliver's Travels]]
-WARNING:root:Failed to use "gwlad = [[Teyrnas Iwerddon|Iwerddon]]
-"
-WARNING:root:Failed to use "cyhoeddwr = [[Benjamin Motte]]
-"
+WARNING:root:Failed to use 'gwlad = [[Teyrnas Iwerddon|Iwerddon]]\n'
+WARNING:root:Failed to use 'cyhoeddwr = [[Benjamin Motte]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:On the Origin of Species]]
-WARNING:root:Failed to use " gwlad       = Lloegr
-"
-WARNING:root:Failed to use " cyhoeddwr = John Murray
-"
-WARNING:root:Failed to use " isbn          = N/A
-"
+WARNING:root:Failed to use ' gwlad       = Lloegr\n'
+WARNING:root:Failed to use ' cyhoeddwr = John Murray\n'
+WARNING:root:Failed to use ' isbn          = N/A\n'
 DEBUG:root:Processing page [[wikipedia:cy:Y Lôn Wen]]
-WARNING:root:Failed to use " awdur             = Kate Roberts
-"
+WARNING:root:Failed to use ' awdur             = Kate Roberts\n'
 DEBUG:root:Processing page [[wikipedia:cy:Wele'n Gwawrio]]
 DEBUG:root:Processing page [[wikipedia:cy:Esther (drama)]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = Cyhoeddiad cyntaf: 1960<br>Argraffiad diweddaraf: Gorffennaf 2000 
-"
-WARNING:root:Failed to use " cyhoeddwr         = [[Dinefwr Press]], [[Llandybïe]]
-"
+WARNING:root:Failed to use ' dyddiad chyhoeddi = Cyhoeddiad cyntaf: 1960<br>Argraffiad diweddaraf: Gorffennaf 2000 \n'
+WARNING:root:Failed to use ' cyhoeddwr         = [[Dinefwr Press]], [[Llandybïe]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Serch yw'r Doctor]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = Cyhoeddiad cyntaf: 1960<br>Argraffiad diweddaraf: Gorffennaf 2000 
-"
-WARNING:root:Failed to use " cyhoeddwr         = [[Dinefwr Press]], [[Llandybïe]]
-"
+WARNING:root:Failed to use ' dyddiad chyhoeddi = Cyhoeddiad cyntaf: 1960<br>Argraffiad diweddaraf: Gorffennaf 2000 \n'
+WARNING:root:Failed to use ' cyhoeddwr         = [[Dinefwr Press]], [[Llandybïe]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Fflamio]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = Awst 1999 "
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Gomer
-"
 DEBUG:root:Processing page [[wikipedia:cy:Aradia, or the Gospel of the Witches]]
-WARNING:root:Failed to use " awdur            = [[Charles Godfrey Leland]]
-"
-WARNING:root:Failed to use " gwlad            = Y Deyrnas Unedig
-"
-WARNING:root:Failed to use " cyhoeddwr        = David Nutt
-"
+WARNING:root:Failed to use ' awdur            = [[Charles Godfrey Leland]]\n'
+WARNING:root:Failed to use ' gwlad            = Y Deyrnas Unedig\n'
+WARNING:root:Failed to use ' cyhoeddwr        = David Nutt\n'
 DEBUG:root:Processing page [[wikipedia:cy:House of Many Ways]]
-WARNING:root:Failed to use " dyddiad chyhoeddi  = 7 Mehefin 2008 [[Yr Unol Daleithiau|(UDA)]]
-"
-WARNING:root:Failed to use " cyhoeddwr     = Amrywiol
-"
+WARNING:root:Failed to use ' dyddiad chyhoeddi  = 7 Mehefin 2008 [[Yr Unol Daleithiau|(UDA)]]\n'
+WARNING:root:Failed to use ' cyhoeddwr     = Amrywiol\n'
 DEBUG:root:Processing page [[wikipedia:cy:Y Bywgraffiadur Cymreig]]
-WARNING:root:Failed to use " awdur = [[E.D. Jones]] a [[Brynley F. Roberts]] (gol'n)
-"
-WARNING:root:Failed to use " cyhoeddwr         = Anrhydeddus Gymdeithas y Cymmrodorion
-"
+WARNING:root:Failed to use " awdur = [[E.D. Jones]] a [[Brynley F. Roberts]] (gol'n)\n""
+WARNING:root:Failed to use ' cyhoeddwr         = Anrhydeddus Gymdeithas y Cymmrodorion\n'
 DEBUG:root:Processing page [[wikipedia:cy:Yn Y Gwaed]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = 1990 a 2010
-"
+WARNING:root:Failed to use ' dyddiad chyhoeddi = 1990 a 2010\n'
 WARNING:py.warnings:/usr/lib/python3.5/site-packages/pywikibot/family.py:930: FamilyMaintenanceWarning: Family name wikimediachapter does not match family module name wikimedia
 DEBUG:root:Processing page [[wikipedia:cy:Gwynfor: Rhag Pob Brad]]
-WARNING:root:Failed to use " awdur             = Rhys Evans
-"
-WARNING:root:Failed to use " dyddiad chyhoeddi = Tachwedd 2005
-"
+WARNING:root:Failed to use ' awdur             = Rhys Evans\n'
 DEBUG:root:Processing page [[wikipedia:cy:Dauwynebog (cyfrol)]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = Hydref 2007 <br> Ail argraffiad Ebrill 2008
-"
+WARNING:root:Failed to use ' dyddiad chyhoeddi = Hydref 2007 <br> Ail argraffiad Ebrill 2008\n'
 DEBUG:root:Processing page [[wikipedia:cy:Lladd Duw]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = Tachwedd 2010 
-"
 DEBUG:root:Processing page [[wikipedia:cy:Caersaint]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = Chwefror 2010 
-"
 DEBUG:root:Processing page [[wikipedia:cy:Naw Mis]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = Rhagfyr 2009 
-"
 DEBUG:root:Processing page [[wikipedia:cy:Cân yr Alarch]]
-WARNING:root:Failed to use " awdur             = [[William Owen (awdur)|William Owen]]
-"
-WARNING:root:Failed to use " dyddiad chyhoeddi = Gorffennaf 2010 
-"
+WARNING:root:Failed to use ' awdur             = [[William Owen (awdur)|William Owen]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Dirgelwch yr Ogof]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = Cynhoeddiad cyntaf: 1977<br>Cyhoeddiad diweddaraf: Awst 2009 
-"
+WARNING:root:Failed to use ' dyddiad chyhoeddi = Cynhoeddiad cyntaf: 1977<br>Cyhoeddiad diweddaraf: Awst 2009 \n'
 DEBUG:root:Processing page [[wikipedia:cy:Barti Ddu o Gasnewy' Bach]]
 DEBUG:root:Processing page [[wikipedia:cy:Cyffesion Geordie Oddi Cartref]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = Mehefin 2010 
-"
 DEBUG:root:Processing page [[wikipedia:cy:Hugh Griffith (llyfr)]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = Tachwedd 2010 
-"
 DEBUG:root:Processing page [[wikipedia:cy:Ffydd Gobaith Cariad]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = Tachwedd 2006 
-"
 DEBUG:root:Processing page [[wikipedia:cy:Cymru: Y 100 lle i’w gweld cyn marw]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = Mai 2010 
-"
 DEBUG:root:Processing page [[wikipedia:cy:Harry Potter and the Chamber of Secrets]]
 DEBUG:root:Processing page [[wikipedia:cy:Fifty Shades of Grey]]
-WARNING:root:Failed to use " awdur             = [[E. L. James]]
-"
-WARNING:root:Failed to use " cyhoeddwr         = [[The Writer's Coffee Shop]]
-"
+WARNING:root:Failed to use ' awdur             = [[E. L. James]]\n'
+WARNING:root:Failed to use " cyhoeddwr         = [[The Writer's Coffee Shop]]\n""
 DEBUG:root:Processing page [[wikipedia:cy:Hanes Cymru (llyfr)]]
-WARNING:root:Failed to use " awdur             = John Davies 
-"
-WARNING:root:Failed to use " gwlad             = Lloegr"
-WARNING:root:Failed to use " cyhoeddwr         = Penguin
-"
+WARNING:root:Failed to use ' awdur             = John Davies \n'
+WARNING:root:Failed to use ' gwlad             = Lloegr'
+WARNING:root:Failed to use ' cyhoeddwr         = Penguin\n'
 DEBUG:root:Processing page [[wikipedia:cy:I Ble'r Aeth Haul y Bore?]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = [[1 Hydref]], [[2009]]
-"
 DEBUG:root:Processing page [[wikipedia:cy:Un Ddinas Dau Fyd]]
 DEBUG:root:Processing page [[wikipedia:cy:Yr Ergyd Olaf]]
 DEBUG:root:Processing page [[wikipedia:cy:Cig a Gwaed]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = 16 Tachwedd 2012<ref>[http://www.amazon.co.uk/Cig-Gwaed-Dewi-Prysor/dp/184771515X Gwefan Amazon]</ref>
-"
+WARNING:root:Failed to use ' dyddiad chyhoeddi = 16 Tachwedd 2012<ref>[http://www.amazon.co.uk/Cig-Gwaed-Dewi-Prysor/dp/184771515X Gwefan Amazon]</ref>\n'
 DEBUG:root:Processing page [[wikipedia:cy:The Bell Jar]]
-WARNING:root:Failed to use " cyhoeddwr         = [[Heinemann (cyhoeddwr)|Heinemann]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = [[Heinemann (cyhoeddwr)|Heinemann]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Pantglas (nofel)]]
-WARNING:root:Failed to use " awdur             = Mihangel Morgan
-"
-WARNING:root:Failed to use " dyddiad chyhoeddi = [[23 Chwefror]], [[2011]]
-"
+WARNING:root:Failed to use ' awdur             = Mihangel Morgan\n'
 DEBUG:root:Processing page [[wikipedia:cy:Cestyll yn y Cymylau]]
-WARNING:root:Failed to use " awdur             = Mihangel Morgan
-"
-WARNING:root:Failed to use " dyddiad chyhoeddi = [[27 Mehefin]], [[2007]]
-"
+WARNING:root:Failed to use ' awdur             = Mihangel Morgan\n'
 DEBUG:root:Processing page [[wikipedia:cy:Dan Gadarn Goncrit]]
-WARNING:root:Failed to use " awdur             = Mihangel Morgan
-"
-WARNING:root:Failed to use " dyddiad chyhoeddi = [[1 Mehefin]], [[1999]]
-"
+WARNING:root:Failed to use ' awdur             = Mihangel Morgan\n'
 DEBUG:root:Processing page [[wikipedia:cy:Yr Erlid]]
-WARNING:root:Failed to use " awdur             = [[Heini Gruffudd]]
-"
-WARNING:root:Failed to use " dyddiad chyhoeddi = Ebrill 2013
-"
+WARNING:root:Failed to use ' awdur             = [[Heini Gruffudd]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:EFfrindiau (llyfr)]]
-WARNING:root:Failed to use " awdur             = [[Lois Arnold]]
-"
+WARNING:root:Failed to use ' awdur             = [[Lois Arnold]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Ifor Bach (llyfr)]]
-WARNING:root:Failed to use " awdur             = [[Ivor Owen]]
-"
+WARNING:root:Failed to use ' awdur             = [[Ivor Owen]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Deltanet]]
-WARNING:root:Failed to use " awdur             = [[Andros Millward]]
-"
+WARNING:root:Failed to use ' awdur             = [[Andros Millward]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Pwy sy'n cofio Siôn?]]
-WARNING:root:Failed to use " awdur             = [[Mair Evans]]
-"
+WARNING:root:Failed to use ' awdur             = [[Mair Evans]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Y Blaned Ddur]]
 DEBUG:root:Processing page [[wikipedia:cy:Y Bradwr (llyfr)]]
 DEBUG:root:Processing page [[wikipedia:cy:Y Ferch o Berlin]]
 DEBUG:root:Processing page [[wikipedia:cy:Modrybedd Afradlon]]
 DEBUG:root:Processing page [[wikipedia:cy:Blasu (nofel)]]
 DEBUG:root:Processing page [[wikipedia:cy:Anecdotau Llenyddol]]
-WARNING:root:Failed to use " cyhoeddwr         = Y Lolfa
-"
-WARNING:root:Failed to use " golygydd          = Tegwyn Jones 
-"
+WARNING:root:Failed to use ' golygydd          = Tegwyn Jones \n'
 DEBUG:root:Processing page [[wikipedia:cy:Anghenion y Gynghanedd]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
 DEBUG:root:Processing page [[wikipedia:cy:Annwyl D.J. - Llythyrau D.J., Saunders, a Kate]]
-WARNING:root:Failed to use " awdur             = [[Emyr Hywel]]
-"
-WARNING:root:Failed to use " cyhoeddwr         = Y Lolfa
-"
+WARNING:root:Failed to use ' awdur             = [[Emyr Hywel]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Yr Anterliwt Goll]]
-WARNING:root:Failed to use " awdur             = Emyr Wyn Jones
-"
+WARNING:root:Failed to use ' awdur             = Emyr Wyn Jones\n'
 DEBUG:root:Processing page [[wikipedia:cy:Anterliwtiau Huw Jones o Langwm]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
-WARNING:root:Failed to use " golygydd          = [[A. Cynfael Lake]] 
-"
+WARNING:root:Failed to use ' golygydd          = [[A. Cynfael Lake]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Astudiaethau ar yr Hengerdd]]
-WARNING:root:Failed to use " iaith             = Cymraeg / Saesneg
-"
-WARNING:root:Failed to use " golygydd          = [[Rachel Bromwich]], [[R. Brinley Jones]] 
-"
+WARNING:root:Failed to use ' iaith             = Cymraeg / Saesneg\n'
+WARNING:root:Failed to use ' golygydd          = [[Rachel Bromwich]], [[R. Brinley Jones]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Awdlau'r Brifwyl 1950-1999]]
 DEBUG:root:Processing page [[wikipedia:cy:Barddoniaeth i Bawb? - Stéphane Mallarmé]]
-WARNING:root:Failed to use " awdur             = Heather Williams
-"
-WARNING:root:Failed to use " cyhoeddwr         = Cronfa Goffa Saunders Lewis
-"
+WARNING:root:Failed to use ' awdur             = Heather Williams\n'
+WARNING:root:Failed to use ' cyhoeddwr         = Cronfa Goffa Saunders Lewis\n'
 DEBUG:root:Processing page [[wikipedia:cy:Y Bedwaredd Gainc]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyngor Gwynedd: Adran Addysg a Diwylliant
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Cyngor Gwynedd: Adran Addysg a Diwylliant\n'
 DEBUG:root:Processing page [[wikipedia:cy:Y Beibl a Llenyddiaeth Gymraeg]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Gomer
-"
 DEBUG:root:Processing page [[wikipedia:cy:Beirdd a Thywysogion]]
-WARNING:root:Failed to use " golygydd          = B.F. Roberts, Morfydd E. Owen 
-"
+WARNING:root:Failed to use ' golygydd          = B.F. Roberts, Morfydd E. Owen \n'
 DEBUG:root:Processing page [[wikipedia:cy:Beirdd yr Uchelwyr a'r Gymdeithas yng Nghymru c.1536-1640]]
-WARNING:root:Failed to use " awdur             = John Gwynfor Jones
-"
-WARNING:root:Failed to use " cyhoeddwr         = J. Gwynfor Jones
-"
+WARNING:root:Failed to use ' awdur             = John Gwynfor Jones\n'
+WARNING:root:Failed to use ' cyhoeddwr         = J. Gwynfor Jones\n'
 DEBUG:root:Processing page [[wikipedia:cy:Beirniadaeth Gyfansawdd - Fframwaith Cyflawn Beirniadaeth Lenyddol]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
 DEBUG:root:Processing page [[wikipedia:cy:Arwr Glew Erwau'r Glo]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Gomer
-
-"
 DEBUG:root:Processing page [[wikipedia:cy:Bewnans Ke (golygiad)]]
-WARNING:root:Failed to use " iaith             = [[Cernyweg Canol]] / Saesneg"
-WARNING:root:Failed to use " cyhoeddwr         = Llyfrgell Genedlaethol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Graham C. G. Thomas]] a [[Nicholas J. A. Williams]] 
-"
+WARNING:root:Failed to use ' iaith             = [[Cernyweg Canol]] / Saesneg'
+WARNING:root:Failed to use ' cyhoeddwr         = Llyfrgell Genedlaethol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[Graham C. G. Thomas]] a [[Nicholas J. A. Williams]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Brut y Brenhinedd (golygiad)]]
-WARNING:root:Failed to use " iaith             = Cymraeg / Saesneg"
-WARNING:root:Failed to use " cyhoeddwr         = The Dublin Institute
-"
+WARNING:root:Failed to use ' iaith             = Cymraeg / Saesneg'
+WARNING:root:Failed to use ' cyhoeddwr         = The Dublin Institute\n'
 DEBUG:root:Processing page [[wikipedia:cy:Buched Dewi (golygiad)]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Prifysgol Cymru
-"
 DEBUG:root:Processing page [[wikipedia:cy:Byd Go Iawn Un Nos Ola Leuad]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = 30 Awst "
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
+WARNING:root:Failed to use ' dyddiad chyhoeddi = 30 Awst '
 DEBUG:root:Processing page [[wikipedia:cy:Canhwyll Marchogyon]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = 20 Rhagfyr "
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Sioned Davies]] a [[Peter Wynn Thomas]] 
-"
+WARNING:root:Failed to use ' dyddiad chyhoeddi = 20 Rhagfyr '
+WARNING:root:Failed to use ' golygydd          = [[Sioned Davies]] a [[Peter Wynn Thomas]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Y Canu Gofyn a Diolch]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = 01 Mawrth "
+WARNING:root:Failed to use ' dyddiad chyhoeddi = 01 Mawrth '
 DEBUG:root:Processing page [[wikipedia:cy:Eneidiau]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = [[23 Gorffennaf]], [[2013]]
-"
 DEBUG:root:Processing page [[wikipedia:cy:Branwen Uerch Llyr (llyfr)]]
-WARNING:root:Failed to use " gwlad             = Iwerddon"
-WARNING:root:Failed to use " cyhoeddwr         = The Dublin Institute
-"
-WARNING:root:Failed to use " golygydd          = [[Derick S. Thomson]] 
-"
+WARNING:root:Failed to use ' gwlad             = Iwerddon'
+WARNING:root:Failed to use ' cyhoeddwr         = The Dublin Institute\n'
+WARNING:root:Failed to use ' golygydd          = [[Derick S. Thomson]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Breudwyt Ronabwy (llyfr)]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Prifysgol Cymru
-"
 DEBUG:root:Processing page [[wikipedia:cy:Canu Llywarch Hen (llyfr)]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Prifysgol Cymru
-"
 DEBUG:root:Processing page [[wikipedia:cy:Canys Bechan yw - Y Genedl Etholedig yn ein Llenyddiaeth]]
-WARNING:root:Failed to use " awdur             = [[D. Llwyd Morgan]] 
-"
+WARNING:root:Failed to use ' awdur             = [[D. Llwyd Morgan]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Capel a Chomin]]
-WARNING:root:Failed to use " awdur             = [[Ioan Williams]] 
-"
+WARNING:root:Failed to use ' awdur             = [[Ioan Williams]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Castell yr Iechyd (llyfr)]]
-WARNING:root:Failed to use " golygydd          = [[S. Minwel Tibbott]] 
-"
+WARNING:root:Failed to use ' golygydd          = [[S. Minwel Tibbott]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Hanes ein Llên]]
 DEBUG:root:Processing page [[wikipedia:cy:Ceinciau'r Mabinogi]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = 1975, 1999"
+WARNING:root:Failed to use ' dyddiad chyhoeddi = 1975, 1999'
 DEBUG:root:Processing page [[wikipedia:cy:Cenedl o Bobl Ddewrion]]
-WARNING:root:Failed to use " awdur             = [[E.G. Millward]] 
-"
+WARNING:root:Failed to use ' awdur             = [[E.G. Millward]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Cerdd Dafod (llyfr)]]
 DEBUG:root:Processing page [[wikipedia:cy:Crefft y Llenor]]
 DEBUG:root:Processing page [[wikipedia:cy:Cenedlaetholdeb a'r Clasuron]]
-WARNING:root:Failed to use " golygydd          = [[John Ellis Jones]] 
-"
+WARNING:root:Failed to use ' golygydd          = [[John Ellis Jones]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Chwilio am Nodau'r Gân]]
-WARNING:root:Failed to use " awdur             = [[Robert Rhys]] 
-"
-WARNING:root:Failed to use " dyddiad chyhoeddi = Ionawr 1992"
+WARNING:root:Failed to use ' awdur             = [[Robert Rhys]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Ceredigion - 101 o'i Beirdd ac Emynwyr]]
-WARNING:root:Failed to use " awdur             = [[Eirian Jones]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = [[Eirian Jones]]"
+WARNING:root:Failed to use ' awdur             = [[Eirian Jones]] \n'
+WARNING:root:Failed to use ' cyhoeddwr         = [[Eirian Jones]]'
 DEBUG:root:Processing page [[wikipedia:cy:Chwileniwm: Technoleg a Llenyddiaeth]]
 DEBUG:root:Processing page [[wikipedia:cy:Crefft y Cyfarwydd]]
-WARNING:root:Failed to use " awdur             = [[Sioned Davies]] 
-"
+WARNING:root:Failed to use ' awdur             = [[Sioned Davies]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Cyfreithiau Hywel Dda yn ôl Llawysgrif Coleg yr Iesu LVII Rhydychen]]
 DEBUG:root:Processing page [[wikipedia:cy:Cerddi Rhydd Iolo Morganwg]]
-WARNING:root:Failed to use " golygydd          = [[P. J. Donovan]] 
-"
+WARNING:root:Failed to use ' golygydd          = [[P. J. Donovan]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Meistri a'u Crefft]]
 DEBUG:root:Processing page [[wikipedia:cy:Dulliau'r Canu Rhydd 1500-1650]]
 DEBUG:root:Processing page [[wikipedia:cy:Taliesin Hiraethog - Detholion o'i Weithiau]]
 DEBUG:root:Processing page [[wikipedia:cy:Clywed Cynghanedd]]
 DEBUG:root:Processing page [[wikipedia:cy:Crefft y Gynghanedd]]
 DEBUG:root:Processing page [[wikipedia:cy:Cydymaith i Lenyddiaeth Cymru]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = 1986, 1992 1997"
+WARNING:root:Failed to use ' dyddiad chyhoeddi = 1986, 1992 1997'
 DEBUG:root:Processing page [[wikipedia:cy:Siwan (Cyfres Astudiaethau Theatr Cymru)]]
-WARNING:root:Failed to use " awdur             = [[A.D. Carr]] a [[Dafydd Glyn Jones]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = [[Cymdeithas Theatr Cymru]]
-"
+WARNING:root:Failed to use ' awdur             = [[A.D. Carr]] a [[Dafydd Glyn Jones]] \n'
+WARNING:root:Failed to use ' cyhoeddwr         = [[Cymdeithas Theatr Cymru]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Meilyr Brydydd a'i Ddisgynyddion]]
-WARNING:root:Failed to use " golygydd          = [[J.E. Caerwyn Williams]] [[R. Geraint Gruffydd]] (Golygydd)
-"
+WARNING:root:Failed to use ' golygydd          = [[J.E. Caerwyn Williams]] [[R. Geraint Gruffydd]] (Golygydd)\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Llywelyn Fardd I ac Eraill o Feirdd y Ddeuddegfed Ganrif]]
-WARNING:root:Failed to use " golygydd          = [[K. A. Bramley et al.]] [[R. Geraint Gruffydd]] (Golygydd)
-"
+WARNING:root:Failed to use ' golygydd          = [[K. A. Bramley et al.]] [[R. Geraint Gruffydd]] (Golygydd)\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Cynddelw Brydydd Mawr]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = 1991, 1992"
-WARNING:root:Failed to use " Tudalennau        = 426, 374"
-WARNING:root:Failed to use " golygydd          = [[Nerys Ann Jones]] ac [[Ann Parry Owen]] [[R. Geraint Gruffydd]] (Golygydd)
-"
+WARNING:root:Failed to use ' dyddiad chyhoeddi = 1991, 1992'
+WARNING:root:Failed to use ' Tudalennau        = 426, 374'
+WARNING:root:Failed to use ' golygydd          = [[Nerys Ann Jones]] ac [[Ann Parry Owen]] [[R. Geraint Gruffydd]] (Golygydd)\n'
 DEBUG:root:Processing page [[wikipedia:cy:Lewys Glyn Cothi (Detholiad)]]
-WARNING:root:Failed to use " golygydd          = [[E. D. Jones]] 
-"
+WARNING:root:Failed to use ' golygydd          = [[E. D. Jones]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Meistri'r Canrifoedd]]
 DEBUG:root:Processing page [[wikipedia:cy:Llwyfannau (Cyfres Cwmpas)]]
-WARNING:root:Failed to use " golygydd          = [[Dafydd Glyn Jones]] a [[John Ellis Jones]] 
-"
+WARNING:root:Failed to use ' golygydd          = [[Dafydd Glyn Jones]] a [[John Ellis Jones]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Cywyddau Iolo Goch ac Eraill]]
-WARNING:root:Failed to use " awdur             = [[Iolo Goch]] ac [[eraill]] 
-"
-WARNING:root:Failed to use " golygydd          = [[Henry Lewis]], [[Thomas Roberts]] ac [[Ifor Williams]] 
-"
+WARNING:root:Failed to use ' awdur             = [[Iolo Goch]] ac [[eraill]] \n'
+WARNING:root:Failed to use ' golygydd          = [[Henry Lewis]], [[Thomas Roberts]] ac [[Ifor Williams]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Elfennau Barddoniaeth]]
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Dafydd Llwyd o Fathafarn]]
-WARNING:root:Failed to use " golygydd          = [[W. Leslie Richards]] 
-"
+WARNING:root:Failed to use ' golygydd          = [[W. Leslie Richards]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Hywel Cilan]]
-WARNING:root:Failed to use " golygydd          = [[Islwyn Jones]] 
-"
+WARNING:root:Failed to use ' golygydd          = [[Islwyn Jones]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Tudur Penllyn ac Ieuan ap Tudur Penllyn]]
-WARNING:root:Failed to use " awdur             = [[Tudur Penllyn]] a [[Ieuan ap Tudur Penllyn]] 
-"
+WARNING:root:Failed to use ' awdur             = [[Tudur Penllyn]] a [[Ieuan ap Tudur Penllyn]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Iaco ab Dewi 1648-1722]]
-WARNING:root:Failed to use " awdur             = [[Garfield H. Hughes]] 
-"
+WARNING:root:Failed to use ' awdur             = [[Garfield H. Hughes]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Culhwch ac Olwen (llyfr)]]
-WARNING:root:Failed to use " golygydd          = [[Rachel Bromwich]] a [[D. Simon Evans]] 
-"
+WARNING:root:Failed to use ' golygydd          = [[Rachel Bromwich]] a [[D. Simon Evans]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Cyfoeth y Testun]]
-WARNING:root:Failed to use " awdur             = [[Dafydd Johnston]], [[Iestyn Daniel]], [[Marged Haycock]] a [[Jenny Rowland]] 
-"
+WARNING:root:Failed to use ' awdur             = [[Dafydd Johnston]], [[Iestyn Daniel]], [[Marged Haycock]] a [[Jenny Rowland]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Golwg ar Lenyddiaeth yr Oesoedd Canol]]
-WARNING:root:Failed to use " awdur             = [[P. Lynne Williams]] 
-"
-WARNING:root:Failed to use " dyddiad chyhoeddi = Ionawr 2001"
+WARNING:root:Failed to use ' awdur             = [[P. Lynne Williams]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Perthyn (Cyfres Astudiaethau Theatr Cymru)]]
-WARNING:root:Failed to use " awdur             = [[Gwenno Hughes]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = [[Cymdeithas Theatr Cymru]]"
+WARNING:root:Failed to use ' awdur             = [[Gwenno Hughes]] \n'
+WARNING:root:Failed to use ' cyhoeddwr         = [[Cymdeithas Theatr Cymru]]'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Bleddyn Ddu]]
-WARNING:root:Failed to use " golygydd          = [[R. Iestyn Daniel]] 
-"
+WARNING:root:Failed to use ' golygydd          = [[R. Iestyn Daniel]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Ysgrifeniadau Byrion Morgan Llwyd]]
-WARNING:root:Failed to use " golygydd          = [[P.J. Donovan]] 
-"
+WARNING:root:Failed to use ' golygydd          = [[P.J. Donovan]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Cyfres y Meistri:4. Daniel Owen - Detholiad o Ysgrifau (Cyfrol 1)]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = Mawrth 1983"
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Guto'r Glyn]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = 1939, 1979"
-WARNING:root:Failed to use " golygydd          = [[J. Llywelyn Williams]] ac [[Ifor Williams]] 
-"
+WARNING:root:Failed to use ' dyddiad chyhoeddi = 1939, 1979'
+WARNING:root:Failed to use ' golygydd          = [[J. Llywelyn Williams]] ac [[Ifor Williams]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Iorwerth Fynglwyd]]
-WARNING:root:Failed to use " golygydd          = [[Howell Ll. Jones]] ac [[E. I. Rowlands]] 
-"
+WARNING:root:Failed to use ' golygydd          = [[Howell Ll. Jones]] ac [[E. I. Rowlands]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Lewys Môn]]
-WARNING:root:Failed to use " golygydd          = [[Eurys Rowlands]] 
-"
+WARNING:root:Failed to use ' golygydd          = [[Eurys Rowlands]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Hen Gerddi Crefyddol]]
 DEBUG:root:Processing page [[wikipedia:cy:Swyddogaeth Beirniadaeth]]
 DEBUG:root:Processing page [[wikipedia:cy:Canu Maswedd yr Oesoedd Canol]]
-WARNING:root:Failed to use " iaith             = Cymraeg a Saesneg "
-WARNING:root:Failed to use " dyddiad chyhoeddi = 04 Awst 1998 (ail argraffiad)"
+WARNING:root:Failed to use ' iaith             = Cymraeg a Saesneg '
+WARNING:root:Failed to use ' dyddiad chyhoeddi = 04 Awst 1998 (ail argraffiad)'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Dafydd Benfras ac Eraill]]
-WARNING:root:Failed to use " golygydd          = [[N. G. Costigan]], [[R. Geraint Gruffydd]]
-"
+WARNING:root:Failed to use ' golygydd          = [[N. G. Costigan]], [[R. Geraint Gruffydd]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Llywarch ap Llywelyn 'Prydydd y Moch']]
-WARNING:root:Failed to use " golygydd          = [[Elin M. Jones]] a [[Nerys Ann Jones]] [[R. Geraint Gruffydd]] (Golygydd)
-"
+WARNING:root:Failed to use ' golygydd          = [[Elin M. Jones]] a [[Nerys Ann Jones]] [[R. Geraint Gruffydd]] (Golygydd)\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Bleddyn Fardd a Beirdd Eraill Ail Hanner y Drydedd Ganrif ar Ddeg]]
-WARNING:root:Failed to use " awdur             = [[Bleddyn Fardd]] ac [[eraill]] 
-"
-WARNING:root:Failed to use " golygydd          = [[Rhian Andrews et al]] [[R. Geraint Gruffydd]] (Golygydd)
-"
+WARNING:root:Failed to use ' awdur             = [[Bleddyn Fardd]] ac [[eraill]] \n'
+WARNING:root:Failed to use ' golygydd          = [[Rhian Andrews et al]] [[R. Geraint Gruffydd]] (Golygydd)\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Gruffudd ap Dafydd ap Tudur, Gwilym Ddu o Arfon, Trahaearn Brydydd Mawr ac Iorwerth Beli]]
-WARNING:root:Failed to use " awdur             = [[Gruffudd ap Dafydd ap Tudur]], [[Gwilym Ddu o Arfon]], [[Trahaearn Brydydd Mawr]] ac [[Iorwerth Beli]] 
-"
-WARNING:root:Failed to use " golygydd          = [[N. G. Costigan (Bosco)]], [[R. Iestyn Daniel]] a [[Dafydd Johnston]] 
-"
+WARNING:root:Failed to use ' awdur             = [[Gruffudd ap Dafydd ap Tudur]], [[Gwilym Ddu o Arfon]], [[Trahaearn Brydydd Mawr]] ac [[Iorwerth Beli]] \n'
+WARNING:root:Failed to use ' golygydd          = [[N. G. Costigan (Bosco)]], [[R. Iestyn Daniel]] a [[Dafydd Johnston]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Huw ap Dafydd ap Llywelyn ap Madog]]
-WARNING:root:Failed to use " awdur             = [[Huw ap Dafydd ap Llywelyn ap]] a [[Madog]] 
-"
-WARNING:root:Failed to use " golygydd          = [[A. Cynfael Lake]] 
-"
+WARNING:root:Failed to use ' awdur             = [[Huw ap Dafydd ap Llywelyn ap]] a [[Madog]] \n'
+WARNING:root:Failed to use ' golygydd          = [[A. Cynfael Lake]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Cyfriniaeth Gymraeg]]
-WARNING:root:Failed to use " awdur             = [[R.M. Jones]] a [[Bobi Jones]] 
-"
+WARNING:root:Failed to use ' awdur             = [[R.M. Jones]] a [[Bobi Jones]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Dadl Grefyddol Saunders Lewis ac W.J. Gruffydd]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = Ionawr 1986"
-WARNING:root:Failed to use " cyhoeddwr         = [[Gwasg Bryntirion]]"
+WARNING:root:Failed to use ' cyhoeddwr         = [[Gwasg Bryntirion]]'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Owain ap Llywelyn ab y Moel]]
-WARNING:root:Failed to use " awdur             = [[Owain ap Llywelyn ab y Moel]] 
-"
-WARNING:root:Failed to use " golygydd          = [[Eurys Rolant]] 
-"
+WARNING:root:Failed to use ' awdur             = [[Owain ap Llywelyn ab y Moel]] \n'
+WARNING:root:Failed to use ' golygydd          = [[Eurys Rolant]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Rhys Brydydd a Rhisiart ap Rhys]]
-WARNING:root:Failed to use " awdur             = [[Rhys Brydydd]] a [[Rhisiart ap Rhys]] 
-"
-WARNING:root:Failed to use " golygydd          = [[John Morgan Williams]] ac [[Eurys I. Rowlands]] 
-"
+WARNING:root:Failed to use ' awdur             = [[Rhys Brydydd]] a [[Rhisiart ap Rhys]] \n'
+WARNING:root:Failed to use ' golygydd          = [[John Morgan Williams]] ac [[Eurys I. Rowlands]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Rhyddiaith R. Williams Parry]]
 DEBUG:root:Processing page [[wikipedia:cy:Cywyddau Ymryson Syr Dafydd Trefor]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Rhiannon Ifans]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[Rhiannon Ifans]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Casnodyn]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[R. Iestyn Daniel]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[R. Iestyn Daniel]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Dafydd Bach ap Madog Wladaidd 'Sypyn Cyfeiliog' a Llywelyn ab y Moel]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[R. Iestyn Daniel]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[R. Iestyn Daniel]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Dafydd Epynt]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = Owen Thomas
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = Owen Thomas\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Dafydd Gorlech]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Erwain Haf Rheinallt]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[Erwain Haf Rheinallt]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Dafydd y Coed a Beirdd Eraill o Lyfr Coch Hergest]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[R. Iestyn Daniel]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[R. Iestyn Daniel]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Einion Offeiriad a Dafydd Ddu o Hiraddug]]
-WARNING:root:Failed to use " awdur             = [[Dafydd Ddu Hiraddug]] ac [[Einion Offeiriad]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[R. Geraint Gruffydd]] a [[Rhiannon Ifans]]
-"
+WARNING:root:Failed to use ' awdur             = [[Dafydd Ddu Hiraddug]] ac [[Einion Offeiriad]] \n'
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[R. Geraint Gruffydd]] a [[Rhiannon Ifans]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Gronw Gyriog, Iorwerth ab y Cyriog ac eraill]]
-WARNING:root:Failed to use " awdur             = [[Gronw Gyriog]], [[Iorwerth ab y Gyriog]], [[Mab Clochyddyn]], [[Gruffudd ap Tudur Goch]] ac [[Ithel Ddu]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Rhiannon Ifans]], [[Ann Parry Owen]], [[W. Dyfed Rowlands]] ac [[Erwain H. Rheinallt]]
-"
+WARNING:root:Failed to use ' awdur             = [[Gronw Gyriog]], [[Iorwerth ab y Gyriog]], [[Mab Clochyddyn]], [[Gruffudd ap Tudur Goch]] ac [[Ithel Ddu]] \n'
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[Rhiannon Ifans]], [[Ann Parry Owen]], [[W. Dyfed Rowlands]] ac [[Erwain H. Rheinallt]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Gruffudd ap Maredudd 1 - Canu i Deulu Penmynydd]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Barry J. Lewis]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[Barry J. Lewis]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Gwerful Mechain ac Eraill]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Nerys Ann Howells]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[Nerys Ann Howells]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Hywel Swrdwal a'i Deulu]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Dylan Foster Evans]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[Dylan Foster Evans]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gesta Romanorum (golygiad)]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Patricia Williams]]
-"
+WARNING:root:Failed to use ' golygydd          = [[Patricia Williams]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gweithiau Oliver Thomas ac Evan Roberts]]
-WARNING:root:Failed to use " awdur             = [[Oliver Thomas]] ac [[Evan Roberts]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Merfyn Morgan]]
-"
+WARNING:root:Failed to use ' awdur             = [[Oliver Thomas]] ac [[Evan Roberts]] \n'
+WARNING:root:Failed to use ' golygydd          = [[Merfyn Morgan]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Gruffudd ap Maredudd: Y Cerddi Crefyddol]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Barry J. Lewis]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[Barry J. Lewis]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Gruffudd ap Maredudd - III Canu Amrywiol]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Ann Parry Owen]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[Ann Parry Owen]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Ieuan ap Rhydderch]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
 DEBUG:root:Processing page [[wikipedia:cy:Islwyn (Dawn Dweud)]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Prifysgol Cymru
-"
 DEBUG:root:Processing page [[wikipedia:cy:Hanes Cyhoeddi Cerddi Eryri (1927) Carneddog]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
 DEBUG:root:Processing page [[wikipedia:cy:Rhyddid y Nofel]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Prifysgol Cymru
-"
 DEBUG:root:Processing page [[wikipedia:cy:Apocryffa Siôn Cent]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[M. Paul Bryant-Quinn]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[M. Paul Bryant-Quinn]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Gruffydd Llwyd a'r Llygliwiaid Eraill]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Rhiannon Ifans]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[Rhiannon Ifans]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Lewys Morgannwg]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[A. Cynfael Lake]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[A. Cynfael Lake]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Siôn Ceri]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[A. Cynfael Lake]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[A. Cynfael Lake]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Gruffudd Gryg]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Barry J. Lewis]] ac [[Eurig Salisbury]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[Barry J. Lewis]] ac [[Eurig Salisbury]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Ieuan ap Llywelyn Fychan, Ieuan Llwyd Brydydd a Lewys Aled]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[M. Paul Bryant-Quinn]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[M. Paul Bryant-Quinn]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Ieuan Brydydd Hir]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[M. Paul Bryant-Quinn]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[M. Paul Bryant-Quinn]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Llawdden]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[R. Iestyn Daniel]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[R. Iestyn Daniel]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Llywelyn ap Gutun]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[R. Iestyn Daniel]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[R. Iestyn Daniel]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Madog Dwygraig]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Huw Meirion Edwards]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[Huw Meirion Edwards]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Syr Dafydd Trefor]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Rhiannon Ifans]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[Rhiannon Ifans]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Lewis Morris (Dawn Dweud)]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Prifysgol Cymru
-"
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Maredudd ap Rhys a'i Gyfoedion]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Llywelyn Goch ap Meurig Hen]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
 DEBUG:root:Processing page [[wikipedia:cy:Awr y Locustiaid]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = [[Tachwedd]], [[2010]]
-"
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Madog Benfras ac Eraill o Feirdd y Bedwaredd Ganrif ar Ddeg]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Barry J. Lewis]] a [[Twm Morys]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[Barry J. Lewis]] a [[Twm Morys]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Hynafiaid: Hil, Cenedl a Gwreiddiau'r Cymry]]
-WARNING:root:Failed to use " awdur             = [[Huw Pryce]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
+WARNING:root:Failed to use ' awdur             = [[Huw Pryce]] \n'
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
 DEBUG:root:Processing page [[wikipedia:cy:James Kitchener Davies: Detholiad o'i Waith]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Manon Rhys]] a [[M. Wynn Thomas]]
-"
+WARNING:root:Failed to use ' golygydd          = [[Manon Rhys]] a [[M. Wynn Thomas]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Llên y Llenor: John Davies o Fallwyd]]
-WARNING:root:Failed to use " awdur             = [[Ceri Davies]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Pantycelyn
-"
+WARNING:root:Failed to use ' awdur             = [[Ceri Davies]] \n'
+WARNING:root:Failed to use ' cyhoeddwr         = Gwasg Pantycelyn\n'
 DEBUG:root:Processing page [[wikipedia:cy:Mawl a'i Gyfeillion - Cyfrol 1]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
 DEBUG:root:Processing page [[wikipedia:cy:Ystorya Gwlat Ieuan Vendigeit (Llythyr y Preutur Siôn)]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Gwilym Lloyd Edwards]]
-"
+WARNING:root:Failed to use ' golygydd          = [[Gwilym Lloyd Edwards]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Mathau Brwmffild]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[A. Cynfael Lake]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[A. Cynfael Lake]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Raff ap Robert]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[A. Cynfael Lake]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[A. Cynfael Lake]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gwaith Rhys Goch Eryri]]
-WARNING:root:Failed to use " cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Dylan Foster Evans]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Canolfan Uwchefrydiau Cymreig a Cheltaidd Prifysgol Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[Dylan Foster Evans]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Gweledigaethau]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
 DEBUG:root:Processing page [[wikipedia:cy:Llenyddiaeth Mewn Theori: Cyfrol 1 2006]]
-WARNING:root:Failed to use " cyhoeddwr         = Owen Thomas
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Owen Thomas\n'
 DEBUG:root:Processing page [[wikipedia:cy:Treigl y Marchog Crwydrad (llyfr)]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[D. Mark Smith]]
-"
+WARNING:root:Failed to use ' golygydd          = [[D. Mark Smith]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Waldo Williams - Rhyddiaith]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Prifysgol Cymru
-"
 DEBUG:root:Processing page [[wikipedia:cy:100 o Englynion]]
-WARNING:root:Failed to use " awdur             = [[Dafydd Islwyn]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
+WARNING:root:Failed to use ' awdur             = [[Dafydd Islwyn]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:A Gymri Di Gymru?]]
-WARNING:root:Failed to use " cyhoeddwr         = Y Lolfa
-"
 DEBUG:root:Processing page [[wikipedia:cy:Achos]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
 DEBUG:root:Processing page [[wikipedia:cy:Alan]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
-WARNING:root:Failed to use " golygydd          = [[Huw Meirion Edwards]]
-"
+WARNING:root:Failed to use ' golygydd          = [[Huw Meirion Edwards]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Baledi'r Ddeunawfed Ganrif]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Prifysgol Cymru
-"
 DEBUG:root:Processing page [[wikipedia:cy:Adennill Tir]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
 DEBUG:root:Processing page [[wikipedia:cy:Ail Bistyll]]
-WARNING:root:Failed to use " awdur             = [[J. T. Williams]] a [[George M. Ll. Davies]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Amrywiol
-"
+WARNING:root:Failed to use ' awdur             = [[J. T. Williams]] a [[George M. Ll. Davies]] \n'
+WARNING:root:Failed to use ' cyhoeddwr         = Amrywiol\n'
 DEBUG:root:Processing page [[wikipedia:cy:Amheus o Angylion]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
 DEBUG:root:Processing page [[wikipedia:cy:Banerog]]
-WARNING:root:Failed to use " cyhoeddwr         = Y Lolfa
-"
 DEBUG:root:Processing page [[wikipedia:cy:Aelwyd Gwlad]]
-WARNING:root:Failed to use " awdur             = [[Elwyn Edwards]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
+WARNING:root:Failed to use ' awdur             = [[Elwyn Edwards]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Am Ryw Hyd]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Gee
-"
 DEBUG:root:Processing page [[wikipedia:cy:Angel a Thinsel]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
-WARNING:root:Failed to use " golygydd          = [[Elwyn Edwards]]
-"
+WARNING:root:Failed to use ' golygydd          = [[Elwyn Edwards]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Anifeiliaid y Maes Hefyd]]
-WARNING:root:Failed to use " awdur             = [[Gwyn Thomas]], [[Ted Breeze Jones]] a [[E.V. Breeze Jones]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Dwyfor
-"
+WARNING:root:Failed to use ' awdur             = [[Gwyn Thomas]], [[Ted Breeze Jones]] a [[E.V. Breeze Jones]] \n'
+WARNING:root:Failed to use ' cyhoeddwr         = Gwasg Dwyfor\n'
 DEBUG:root:Processing page [[wikipedia:cy:Ar y Tir Mawr]]
-WARNING:root:Failed to use " awdur             = [[Gareth Neigwl]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Carreg Gwalch
-"
+WARNING:root:Failed to use ' awdur             = [[Gareth Neigwl]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Bardd y Neuadd Wen]]
-WARNING:root:Failed to use " awdur             = [[James Peter Jones]] ac [[Ieuan May Jones]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Gw. Disgrifiad
-"
-WARNING:root:Failed to use " golygydd          = [[Cathrin Williams]]
-"
+WARNING:root:Failed to use ' awdur             = [[James Peter Jones]] ac [[Ieuan May Jones]] \n'
+WARNING:root:Failed to use ' cyhoeddwr         = Gw. Disgrifiad\n'
+WARNING:root:Failed to use ' golygydd          = [[Cathrin Williams]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Penillion Huw]]
-WARNING:root:Failed to use " awdur             = [[Huw Erith]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Carreg Gwalch
-"
+WARNING:root:Failed to use ' awdur             = [[Huw Erith]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Cerddi Gwyndaf]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Gee
-"
 DEBUG:root:Processing page [[wikipedia:cy:Amser Amherffaith]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Carreg Gwalch
-"
 DEBUG:root:Processing page [[wikipedia:cy:At eich Gwasanaeth]]
-WARNING:root:Failed to use " awdur             = [[J. Eirian Davies]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Gee
-"
+WARNING:root:Failed to use ' awdur             = [[J. Eirian Davies]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Awen R.E.]]
-WARNING:root:Failed to use " awdur             = [[R.E. Jones]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Gwynedd
-"
+WARNING:root:Failed to use ' awdur             = [[R.E. Jones]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Awen y Gael]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
 DEBUG:root:Processing page [[wikipedia:cy:Beirdd Bro'r Eisteddfod]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
-WARNING:root:Failed to use " golygydd          = [[John Glyn Jones]]
-"
+WARNING:root:Failed to use ' golygydd          = [[John Glyn Jones]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Beirdd Ceridwen]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
-WARNING:root:Failed to use " golygydd          = [[Cathryn A. Charnell-White]]
-"
+WARNING:root:Failed to use ' golygydd          = [[Cathryn A. Charnell-White]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Caniadau Unigedd]]
-WARNING:root:Failed to use " awdur             = [[David Hodges]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = The Abbey, Caldey Island
-"
+WARNING:root:Failed to use ' awdur             = [[David Hodges]] \n'
+WARNING:root:Failed to use ' cyhoeddwr         = The Abbey, Caldey Island\n'
 DEBUG:root:Processing page [[wikipedia:cy:Cerddi Bois y Frenni]]
-WARNING:root:Failed to use " awdur             = [[W.R. Evans]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Gomer
-"
+WARNING:root:Failed to use ' awdur             = [[W.R. Evans]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Cerddi R. Williams Parry - Y Casgliad Cyflawn 1905-1950]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Gee
-"
 DEBUG:root:Processing page [[wikipedia:cy:Cerddi W.J. Gruffydd - Elerydd]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Gwynedd
-"
-WARNING:root:Failed to use " golygydd          = [[D. Islwyn Edwards]]
-"
+WARNING:root:Failed to use ' golygydd          = [[D. Islwyn Edwards]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Apocalups Yfory]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
 DEBUG:root:Processing page [[wikipedia:cy:Ar Dafod Gwerin]]
-WARNING:root:Failed to use " cyhoeddwr         = Cymdeithas Lyfrau Ceredigion
-"
-WARNING:root:Failed to use " golygydd          = [[Tegwyn Jones]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Cymdeithas Lyfrau Ceredigion\n'
+WARNING:root:Failed to use ' golygydd          = [[Tegwyn Jones]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Awen yr Hwyr]]
-WARNING:root:Failed to use " awdur             = [[J. Eirian Davies]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Gee
-"
+WARNING:root:Failed to use ' awdur             = [[J. Eirian Davies]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Blodeugerdd Barddas o Farddoniaeth Gyfoes]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
 DEBUG:root:Processing page [[wikipedia:cy:Cerddi Bryan Martin Davies]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
 DEBUG:root:Processing page [[wikipedia:cy:Dal Diferion]]
-WARNING:root:Failed to use " awdur             = [[Dafydd Islwyn]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
+WARNING:root:Failed to use ' awdur             = [[Dafydd Islwyn]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Ffansi'r Funud, Ffansi Oes]]
-WARNING:root:Failed to use " awdur             = [[Cen Williams]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
+WARNING:root:Failed to use ' awdur             = [[Cen Williams]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Golchi Llestri Mewn Bar Mitzvah]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Carreg Gwalch
-"
 DEBUG:root:Processing page [[wikipedia:cy:Holl Stwff Geraint Lovgreen]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Carreg Gwalch
-"
 DEBUG:root:Processing page [[wikipedia:cy:Awen Anhygoel Arwel]]
-WARNING:root:Failed to use " awdur             = [[Arwel Jones]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Carreg Gwalch
-"
+WARNING:root:Failed to use ' awdur             = [[Arwel Jones]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Englynion dan Bwysau]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Carreg Gwalch
-"
 DEBUG:root:Processing page [[wikipedia:cy:Be 'Di Blwyddyn Rhwng Ffrindia?]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Taf
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Gwasg Taf\n'
 DEBUG:root:Processing page [[wikipedia:cy:Blodau Gwanwyn, Blodau Gwyn]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Carreg Gwalch
-"
 DEBUG:root:Processing page [[wikipedia:cy:Bore Newydd]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Carreg Gwalch
-"
 DEBUG:root:Processing page [[wikipedia:cy:Cadw Golwg]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Gwynedd
-"
 DEBUG:root:Processing page [[wikipedia:cy:Cerddi Caerdydd]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Gomer
-"
-WARNING:root:Failed to use " golygydd          = [[Catrin Beard]]
-"
+WARNING:root:Failed to use ' golygydd          = [[Catrin Beard]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Cerddi Jac Glan-y-Gors]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
-WARNING:root:Failed to use " golygydd          = [[E.G. Millward]]
-"
+WARNING:root:Failed to use ' golygydd          = [[E.G. Millward]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Diwrnod i'r Brenin]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
 DEBUG:root:Processing page [[wikipedia:cy:Eldorado (llyfr)]]
-WARNING:root:Failed to use " awdur             = [[Twm Morys]] ac [[Iwan Llwyd]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Carreg Gwalch
-"
+WARNING:root:Failed to use ' awdur             = [[Twm Morys]] ac [[Iwan Llwyd]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Bardd Pengwern]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
-WARNING:root:Failed to use " golygydd          = [[Siwan M Rosser]]
-"
+WARNING:root:Failed to use ' golygydd          = [[Siwan M Rosser]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Hiwmor Hedd]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Carreg Gwalch
-"
 DEBUG:root:Processing page [[wikipedia:cy:Limrigau Prysor]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Carreg Gwalch
-"
 DEBUG:root:Processing page [[wikipedia:cy:Blodeugerdd Barddas o Englynion Cyfoes]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
 DEBUG:root:Processing page [[wikipedia:cy:Blodeugerdd Barddas o Ganu Newydd]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
-WARNING:root:Failed to use " golygydd          = [[Frank Olding]]
-"
+WARNING:root:Failed to use ' golygydd          = [[Frank Olding]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Blodeugerdd o'r Bedwaredd Ganrif ar Bymtheg]]
-WARNING:root:Failed to use " cyhoeddwr         = Cymdeithas Lyfrau Ceredigion
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Cymdeithas Lyfrau Ceredigion\n'
 DEBUG:root:Processing page [[wikipedia:cy:Cadw Drws]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Gomer
-"
 DEBUG:root:Processing page [[wikipedia:cy:Cartre'n y Cread]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Gomer
-"
 DEBUG:root:Processing page [[wikipedia:cy:Cerddi Cyfiawnder]]
-WARNING:root:Failed to use " cyhoeddwr         = Heddlu Gogledd Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Bethan Jones Parry]]
-"
+WARNING:root:Failed to use ' cyhoeddwr         = Heddlu Gogledd Cymru\n'
+WARNING:root:Failed to use ' golygydd          = [[Bethan Jones Parry]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Manion Edgar]]
-WARNING:root:Failed to use " awdur             = [[Edgar Parry Williams]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Carreg Gwalch
-"
+WARNING:root:Failed to use ' awdur             = [[Edgar Parry Williams]] \n'
 DEBUG:root:Processing page [[wikipedia:cy:Rhigymau Wil Sam]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Carreg Gwalch
-"
 DEBUG:root:Processing page [[wikipedia:cy:Stompiadau Pod]]
-WARNING:root:Failed to use " awdur             = [[Arwel 'Pod' Roberts]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Carreg Gwalch
-"
+WARNING:root:Failed to use " awdur             = [[Arwel 'Pod' Roberts]] \n""
 DEBUG:root:Processing page [[wikipedia:cy:Blodeugerdd Barddas o Ganu Crefyddol Cynnar]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
-WARNING:root:Failed to use " golygydd          = [[Marged Haycock]]
-"
+WARNING:root:Failed to use ' golygydd          = [[Marged Haycock]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Blodeugerdd Barddas o Gerddi Crefyddol]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
-WARNING:root:Failed to use " golygydd          = [[Medwin Hughes]]
-"
+WARNING:root:Failed to use ' golygydd          = [[Medwin Hughes]]\n'
 DEBUG:root:Processing page [[wikipedia:cy:Blodeugerdd o'r Ddeunawfed Ganrif]]
-WARNING:root:Failed to use " dyddiad chyhoeddi = 1936 (1980) "
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Prifysgol Cymru
-"
+WARNING:root:Failed to use ' dyddiad chyhoeddi = 1936 (1980) '
 DEBUG:root:Processing page [[wikipedia:cy:Mwy o Limrigau Prysor]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Carreg Gwalch
-"
 DEBUG:root:Processing page [[wikipedia:cy:Blodeugerdd y Glannau]]
-WARNING:root:Failed to use " cyhoeddwr         = Cyhoeddiadau Barddas
-"
 DEBUG:root:Processing page [[wikipedia:cy:Buarth Bywyd]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Gwynedd
-"
-DEBUG:root:Processing page [[wikipedia:cy:C'nafron a Cherddi Eraill]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Gwynedd
-"
-DEBUG:root:Processing page [[wikipedia:cy:Cadwynau yn y Meddwl]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Gee
-"
-DEBUG:root:Processing page [[wikipedia:cy:Caniadau Isgarn - Detholiad a Gwerthfawrogiad]]
-WARNING:root:Failed to use " awdur             = [[Richard Davies (Isgarn)]] 
-"
-WARNING:root:Failed to use " cyhoeddwr         = Llyfrgell Genedlaethol Cymru
-"
-DEBUG:root:Processing page [[wikipedia:cy:Cerddi'r Bont]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Carreg Gwalch
-"
-DEBUG:root:Processing page [[wikipedia:cy:Cerddi Dafydd ap Gwilym]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Prifysgol Cymru
-"
-WARNING:root:Failed to use " golygydd          = [[Amrywiol]]
-"
-DEBUG:root:Processing page [[wikipedia:cy:Y Bancsi Bach]]
-WARNING:root:Failed to use " cyhoeddwr         = Y Lolfa
-"
-DEBUG:root:Processing page [[wikipedia:cy:Hoff Gerddi Natur Cymru]]
-WARNING:root:Failed to use " cyhoeddwr         = Gwasg Gomer
-"
-WARNING:root:Failed to use " golygydd          = [[Bethan Mair]]
-"
-DEBUG:root:Processing page [[wikipedia:cy:Waliau'n Canu]]
-VERBOSE:pywiki:Found 1 wikipedia:gd processes running, including this one.
+VERBOSE:pywiki:Found 1 wikipedia:ilo processes running, including this one.
 VERBOSE:pywiki:Dropped throttle(s).
 CRITICAL:pywiki:Waiting for 1 network thread(s) to finish. Press ctrl-c to abort
 VERBOSE:pywiki:All threads finished.
