@@ -16,9 +16,17 @@ def use_param(template, name, mangle):
     return dict()
 
 def mangle_wikipedia(raw):
-    wde_page = pywikibot.Page(pywikibot.Site('de', 'wikipedia'), raw)
-    item = pywikibot.ItemPage.fromPage(wde_page).title()
-    return {'subject': item.title()}
+    try:
+        wde_page = pywikibot.Page(pywikibot.Site('de', 'wikipedia'), raw)
+        if wde_page.isRedirectPage():
+            wde_page = wde_page.getRedirectTarget()
+    except pywikibot.NoPage:
+        return {'wikipdia': '??? ' + raw}
+    try:
+        item = pywikibot.ItemPage.fromPage(wde_page).title()
+        return {'subject': item.title(), 'wikipedia': wde_page.title()}
+    except:
+        return {'wikipedia': wde_page.title()}
 
 
 def process_page(page):
@@ -65,7 +73,7 @@ if __name__ == '__main__':
     logging.basicConfig(filename=args.log,level=args.level)
 
     with open(args.output, 'w', 1) as csvfile:
-        fieldnames = ['title', 'wikidata', 'subject']
+        fieldnames = ['title', 'wikipedia', 'wikidata', 'subject']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         for page in template.embeddedin(namespaces=0, content=True):
