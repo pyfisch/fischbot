@@ -2,41 +2,7 @@ import csv
 
 import mwparserfromhell
 import requests
-
-
-# Fails:
-# Fail Astronomie
-# Fail Arda (Mariza)
-# Fail Burgas
-# Fail Dengizich
-# Fail Măcin
-# Fail Berenike II.
-# Fail Attalos I.
-# Fail Gnaeus Arulenus Caelius Sabinus
-# Fail Gubazes II.
-# Fail Aelia Eudoxia
-# Fail Lucius Arruntius (Konsul 6)
-# Fail Arminius
-# Fail Aristion von Paros
-# Fail Aronstabgewächse
-# Fail Pontarlier
-# Fail Civitavecchia
-# Fail Ariobarzanes (Phrygien)
-# Fail Peschiera del Garda
-# Fail Ariaspes
-# Fail Augusta Raurica
-# Fail Ariassos
-# Fail Ariobarzanes
-# Fail Herodes Atticus
-# Fail Demosthenes (Militär)
-# Fail Alpheios (Mythologie)
-# Fail Aristarete
-# Fail Delphin (Sternbild)
-# Fail Agrippa (Philosoph)
-# Fail Sextus Aelius Catus
-# Fail Sallustius Bonosus
-
-
+import pywikibot
 
 base_url = 'https://de.wikisource.org/w/api.php'
 payload = {
@@ -61,7 +27,7 @@ def process_page(page):
     if len(re_templates) == 1:
         re = re_templates[0]
         if re.has(9, ignore_empty=True):
-            wde_title = re.get(9).value
+            wde_title = re.get(9).value.strip()
             return [sde_title, wde_title, None, None]
     return [sde_title, None, None, None]
 
@@ -125,37 +91,95 @@ payload = {
 
 final_result = []
 
-while True:
-    print("Running query 3")
-    processing = []
-    while True:
-        if len(processing) == 50 or not len(intermediate_result2):
-            break
-        item = intermediate_result2.pop()
-        if not item[1]:
-            final_result.append(item)
+def get_hard_titles(elements):
+    result = []
+    for x in elements:
+        for e in x:
+            print(e)
+            try:
+                wde_page = pywikibot.Page(pywikibot.Site('de', 'wikipedia'), e[1])
+                if wde_page.isRedirectPage():
+                    wde_page = wde_page.getRedirectTarget()
+                e[3] = pywikibot.ItemPage.fromPage(wde_page).title()
+            except pywikibot.NoPage:
+                pass
+            result.append(e)
+    return result
+
+
+def step3(elements):
+    result = []
+    in_progress = dict()
+    while elements:
+        elem = elements.pop()
+        if elem[1]:
+            if not elem[1] in in_progress:
+                in_progress[elem[1]] = []
+            in_progress[elem[1]].append(elem)
         else:
-            processing.append(item)
-    if not processing:
-        break
-    titles = [str(page[1]) for page in processing]
-    payload['titles'] = '|'.join(titles)
-    entities = requests.get(base_url, params=payload).json()['entities']
-    for e in entities.values():
-        if not 'sitelinks' in e:
-            continue
-        title = e['sitelinks']['dewiki']['title']
-        q = e['title']
-        try:
-            index = titles.index(title)
-        except:
-            print("Fail", title)
-            continue
-        elem = processing[index]
-        processing[index] = None
-        elem[3] = q
-        final_result.append(elem)
-    final_result.extend([x for x in processing if x])
+            result.append(elem)
+    print("*** Filtered result")
+    hard_cases = []
+    while in_progress:
+        titles = []
+        processing = []
+        while (len(processing) < 50) and in_progress:
+            (key, values) = in_progress.popitem()
+            titles.append(key)
+            processing.append(values)
+        payload['titles'] = '|'.join(titles)
+        entities = requests.get(base_url, params=payload).json()['entities']
+        for e in entities.values():
+            if not 'sitelinks' in e:
+                continue
+            title = e['sitelinks']['dewiki']['title']
+            q = e['title']
+            try:
+                for x in processing[titles.index(title)]:
+                    x[3] = q
+                result.extend(processing[titles.index(title)])
+                processing[titles.index(title)] = None
+            except ValueError:
+                pass
+        hard_cases.extend([x for x in processing if x])
+    print("*** Resolved simple cases")
+    result.extend(get_hard_titles(hard_cases))
+    return result
+
+
+final_result = step3(intermediate_result2)
+
+# while True:
+#     print("Running query 3")
+#     processing = []
+#     while True:
+#         if len(processing) == 50 or not len(intermediate_result2):
+#             break
+#         item = intermediate_result2.pop()
+#         if not item[1]:
+#             final_result.append(item)
+#         else:
+#             processing.append(item)
+#     if not processing:
+#         break
+#     titles = [str(page[1]) for page in processing]
+#     payload['titles'] = '|'.join(titles)
+#     entities = requests.get(base_url, params=payload).json()['entities']
+#     for e in entities.values():
+#         if not 'sitelinks' in e:
+#             continue
+#         title = e['sitelinks']['dewiki']['title']
+#         q = e['title']
+#         try:
+#             index = titles.index(title)
+#         except:
+#             print("Fail", title)
+#             continue
+#         elem = processing[index]
+#         processing[index] = None
+#         elem[3] = q
+#         final_result.append(elem)
+#     final_result.extend([x for x in processing if x])
 
 print("*** STEP THREE COMPLETE ***")
 
